@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main(void)
 {
-int a,b,t;
-scanf("%d %d",&a,&b);
+ long int a,b,t;
+scanf("%ld %ld",&a,&b);
 
 
   t=a;
   a=b;
   b=t;
 
-printf("%d %d",a,b);
+printf("%ld %ld",a,b);
 }

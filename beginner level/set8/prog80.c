@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main(void)
 {
-char ch[100];
-scanf("%s",ch);
-int k,i;
-for(k=0;ch[k]!='\0';++k)
+char s[100];
+scanf("%s",s);
+int j,i;
+for(j=0;s[j]!='\0';++j)
 {
 }
-for(i=0;i<k;i++)
+for(i=0;i<j;i++)
 {
-	if(ch[i]%2!=0)
-printf("%c ",ch[i]);
+	if(s[i]%2!=0)
+printf("%c ",s[i]);
 }
 return 0;
 }

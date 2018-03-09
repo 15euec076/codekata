@@ -8,18 +8,18 @@ int main(void)
   int len=strlen(a);
 	for(i=0;i<len;i++)
 	{
-		if(s[0]>='a'&&s[0]<='z')
+		if(a[0]>='a'&& a[0]<='z')
 		{
 			s[0]-=32;
 		}
-	if(s[i]==' ' && s[i]>='a' && s[i]<='z')
+	if(a[i]==' ' && a[i]>='a' && a[i]<='z')
 	{
-		s[i+1]-=32;
+		a[i+1]-=32;
 	}
 	}
 	for(i=0;i<len;i++)
 	{
-		printf("%c",s[i]);
+		printf("%c",a[i]);
 	}
 	return 0;
 }

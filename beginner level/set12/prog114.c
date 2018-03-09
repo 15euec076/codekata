@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(void) 
 {
-	int i,n,k,a[50],count=1;
-	scanf("%d %d",&n,&k);
+	int i,n,m,a[100],count=1;
+	scanf("%d %d",&n,&m);
 	for(i=0;i<n;i++)
 	{
 		scanf("%d",&a[i]);
@@ -11,7 +11,7 @@ int main(void)
 	{
 		if(a[i]%2==1)
 		{
-			if(count==k)
+		   if(count==m)
 			{
 				printf("%d",a[i]);
 			}

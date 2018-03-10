@@ -54,4 +54,5 @@ int main(void)
    }
    t=res+t;
    printf("%d",t);
+ 
   }

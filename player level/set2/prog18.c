@@ -17,9 +17,10 @@ int main(void) {
 			}
 		}
 	}
-	int k=0;
+	int k=0,m;
+	scanf("%d",&m);
 	char temp1;
-	while(k<5)
+	while(k<m)
 	{
 	 scanf("%s",a);
 	 int l=strlen(a);
